@@ -1,7 +1,5 @@
 # Tarjetas Mexicanas | GRUCRIB
 
-## _Mostly JavaScript... HTML and CSS project_
-
 En Nov/2022 había 202 tarjetas de crédito, pero ninguna plataforma que de forma sesgada las muestre y recomiende a los usuarios. Este es el propósito de este Git, de GRUCRIB y su comunidad.
 
 - App Netlify: https://tarjetas-grucrib.netlify.app/
