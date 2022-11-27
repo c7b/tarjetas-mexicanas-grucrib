@@ -10,12 +10,18 @@ body{
 main {
   margin-top:25px;
 }
+h5{
+  color: var(--bs-gray-600);
+  font-style: italic;
+}
 .app {
   background:#FFF;
   min-height:650px;
   padding:15px 30px;
 }
-.media-left { display:none } 
+.media-left {
+  display:none
+} 
 .question-block {
   margin: 20px 0;
   padding:15px;
@@ -52,8 +58,4 @@ main {
   font-size:18px;
   font-weight:700;
   margin: 0 0 10px 0
-}
-
-.btn.btn-primary{
-  
 }
