@@ -22,9 +22,7 @@ h5 {
 .media-left {
   display: none;
 }
-.tips-sections{
-  
-}
+
 .question-block {
   margin: 20px 0;
   padding: 15px;
@@ -276,11 +274,6 @@ button.btn{
 .card-item__cover.banregio {
   background: rgb(255,107,0);
   background: linear-gradient(54deg, rgba(255,107,0,1) 29%, rgba(249,122,57,1) 89%);
-  /*
-  En mi opinion me gusto mas la coleción 2021 que 2022.
-  2021: https://www.brands.mx/project/701-hey-banco
-  2022: https://www.brands.mx/project/747-hey-banco
-  */
 }
 .card-item__cover.banamex {
   background: rgb(0, 52, 84);
