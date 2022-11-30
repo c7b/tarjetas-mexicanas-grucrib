@@ -38,6 +38,9 @@ h5 {
   opacity: 0.4;
   pointer-events: none;
 }
+button.btn{
+ margin-bottom: 15px;
+}
 
 .card-item__side.-front{
   display: none;
@@ -123,6 +126,16 @@ h5 {
   font-size: 18px;
   font-weight: 700;
   margin: 0 0 10px 0;
+}
+
+.footer{
+  text-align: center;
+  color: #aaa;
+}
+.footer a{
+  text-decoration: none;
+  color: #aaa;
+  opacity: 0.5;
 }
 /* Card CSS */
 

@@ -53,26 +53,5 @@ $('button.btn-reset').click(function() {
   $('.question-block button').removeClass('btn-primary').addClass('btn-outline-primary')
 });
 
-
-/*
-var e = document.getElementById('test')
-var observer = new MutationObserver(function (event) {
-  console.log(event[0])
-  console.log(event[0].target);
-  var newValue = event[0].target;
-  console.log(newValue.getAttribute("class"));
-
-})
-
-observer.observe(e, {
-  attributes: true, 
-  attributeFilter: ['class'],
-  childList: false, 
-  characterData: false
-})
-
-setTimeout(function () {
-  e.className = 'hello'
-}, 1000)
-
-*/
+console.log('¿Quieres colaborar? Este proyecto es Codigo Abierto, mandame un DM y lo hacemos más grande. ')
+console.log('Github: https://github.com/c7b/tarjetas-mexicanas-grucrib')
