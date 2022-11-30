@@ -31,6 +31,13 @@ h5 {
 .question-block.answered {
   display: block;
 }
+
+.card-item__side.-front{
+  display: none;
+}
+
+
+
 .question-block:not(.active, .answered) {
   display: none;
 }
@@ -67,6 +74,13 @@ h5 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 100px;
+  margin: 20px 0;
+  padding: 15px;
+
+}
+.active-section{
+  border: 1px solid #ddd;
 }
 .wrapper {
   min-height: 100vh;
@@ -117,7 +131,7 @@ h5 {
   box-shadow: 0 20px 60px 0 rgba(14, 42, 90, 0.55);
   transform: perspective(2000px) rotateY(0) rotateX(0) rotate(0);
   transform-style: preserve-3d;
-  transition: all 0.2s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+
   backface-visibility: hidden;
   height: 100%;
   width: 317px;
@@ -165,6 +179,15 @@ h5 {
     rgba(49, 49, 49, 1) 65%,
     rgba(88, 88, 88, 1) 100%
   );
+  /*
+  En mi opinion me gusto mas la coleción 2021 que 2022.
+  2021: https://www.brands.mx/project/701-hey-banco
+  2022: https://www.brands.mx/project/747-hey-banco
+  */
+}
+.card-item__cover.banregio {
+  background: rgb(255,107,0);
+  background: linear-gradient(54deg, rgba(255,107,0,1) 29%, rgba(249,122,57,1) 89%);
   /*
   En mi opinion me gusto mas la coleción 2021 que 2022.
   2021: https://www.brands.mx/project/701-hey-banco
@@ -247,7 +270,6 @@ h5 {
 .card-item__name {
   font-size: 12px;
   line-height: 1;
-  white-space: nowrap;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -256,7 +278,7 @@ h5 {
 }
 @media screen and (max-width: 480px) {
   .card-item__name {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -331,10 +353,12 @@ h5 {
 }
 
 .card-item__side.-front:hover {
+  transition-duration: 0.2s;
   transform: scale(1.05) translateZ(0);
 }
 
 .card-item__side.-front:hover {
+  transition-duration: 0.2s;
   transform: scale(1.05) translateZ(0);
 }
 

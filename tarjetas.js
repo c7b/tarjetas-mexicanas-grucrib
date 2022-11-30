@@ -30,8 +30,14 @@ $('.question-block .responses button:not(.btn-reset)').click(function() {
     console.log('card:' + card);
     let cardSuggestion = card.split(' ');
     console.log(cardSuggestion);
-    
-
+    cardSuggestion.forEach(element => {
+    document.querySelector('.card-section').classList.add('active-section');
+      
+      console.log(element)
+      let cardSelected = document.getElementById(element);
+      cardSelected.classList.add('active-card');
+      $(cardSelected).fadeIn(1000);
+    });
 
   }
 
@@ -40,15 +46,14 @@ $('.question-block .responses button:not(.btn-reset)').click(function() {
 //Reset
 $('.question-block button.btn-reset').click(function() {
   $('.question-block').removeClass('active').removeClass('answered');
+  $('.card-item__side.-front').removeClass('active-card');
+  document.querySelector('.card-section').classList.remove('active-section');
+  $('.card-item__side.-front').attr("style", "");
   $('.question-block[data-question="1"]').addClass('active');
   $('.question-block button').removeClass('btn-primary').addClass('btn-outline-primary')
 });
 
 
-
-function printCard(){
-
-}
 /*
 var e = document.getElementById('test')
 var observer = new MutationObserver(function (event) {
