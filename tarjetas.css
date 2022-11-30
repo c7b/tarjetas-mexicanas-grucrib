@@ -22,6 +22,9 @@ h5 {
 .media-left {
   display: none;
 }
+.tips-sections{
+  
+}
 .question-block {
   margin: 20px 0;
   padding: 15px;
@@ -30,6 +33,10 @@ h5 {
 .question-block.active,
 .question-block.answered {
   display: block;
+}
+.answered{
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .card-item__side.-front{
@@ -60,7 +67,7 @@ h5 {
   margin-right: 10px;
 }
 .question {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700;
   margin: 0 0 10px 0;
 }
@@ -71,9 +78,37 @@ h5 {
   vertical-align: bottom;
   margin-right: 5px;
 }
+.response-title{
+  font-size: 28px;
+}
+.title-tips {
+  text-align: center;
+  flex-basis: 100%;
+  margin: 25px 0;
+}
 .tip-small{
   font-size: 20px;
+  margin-top: 14px;
+  margin-bottom: 10px;
   font-weight: normal;
+}
+.text-warning{
+  padding: 15px;
+  background-color: #fffdf5;
+  border: 1px solid #ffc107;
+  border-radius: 10px;
+}
+.text-warning .tip-small{
+  color:#4f3512;
+}
+.text-success{
+  padding: 15px;
+  background-color: #def9e1;
+  border: 1px solid #014932;
+  border-radius: 10px;
+}
+.text-success .tip-small{
+  color: #014932;
 }
 
 .center {
