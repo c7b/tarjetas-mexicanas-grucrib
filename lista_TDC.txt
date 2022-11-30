@@ -62,15 +62,15 @@ Banorte / Tarjeta de Crédito Banorte Platinum
 Banorte / Tarjeta de Crédito Banorte Tuzos
 Banorte / Tarjeta de Crédito Mujer Banorte
 Banorte Débito / Cuenta Enlace Digital
-banregio / Tarjeta Acceso Gold
-banregio / Tarjeta Banregio
-banregio / Tarjeta Básica 
-banregio / Tarjeta Clásica
-banregio / Tarjeta de Crédito MAS 
-banregio / Tarjeta de Crédito Platinum
-banregio / Tarjeta Gold
-banregio / Tarjeta Hey (Mal Buró de Crédito)
-banregio / Tarjeta Hey (Sin historial de crédito)
+Banregio / Tarjeta Acceso Gold
+Banregio / Tarjeta Banregio
+Banregio / Tarjeta Básica 
+Banregio / Tarjeta Clásica
+Banregio / Tarjeta de Crédito MAS 
+Banregio / Tarjeta de Crédito Platinum
+Banregio / Tarjeta Gold
+Banregio / Tarjeta Hey (Mal Buró de Crédito)
+Banregio / Tarjeta Hey (Sin historial de crédito)
 BBVA / Mi Primera Tarjeta BBVA 
 BBVA / Tarjeta Afinidad UNAM BBVA
 BBVA / Tarjeta Azul 
@@ -201,5 +201,5 @@ Stori / Tarjeta de Crédito Stori
 Stori / Tarjeta de Crédito Stori Construye
 Vexi / Tarjeta de Crédito Vexi
 Vexi / Tarjeta de Crédito Vexi American Express
-yotepresto / Préstamos Personales Consolidación
-yotepresto / Préstamos Personales General
+YoTePresto / Préstamos Personales Consolidación
+YoTePresto / Préstamos Personales General

@@ -4,14 +4,14 @@ $('.question-block .responses button:not(.btn-reset)').click(function() {
   var toggleTo = $(this).attr('data-toggle');
   console.log('toggleTo:' + toggleTo);
 
-
+/*
   $('.question-block').each(function() {
     var question = $(this).attr('data-question');
     if (question > response) {
       $(this).removeClass('active').removeClass('answered');
       $(this).find('button').removeClass('btn-primary').addClass('btn-outline-primary')
     } 
-  });
+  });*/
 
 
   $('.question-block[data-question="' + response + '"] button').each(function() {

@@ -114,6 +114,17 @@ button.btn{
   color: #014932;
 }
 
+.card-section-smallText{
+  font-size: 16px;
+  font-weight: normal;
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card-section-title{
+  font-size: 30px;
+}
+
 .center {
   border: 5px solid;
   display: flex;
@@ -137,6 +148,7 @@ button.btn{
   color: #aaa;
   opacity: 0.5;
 }
+
 /* Card CSS */
 
 .card-section {
