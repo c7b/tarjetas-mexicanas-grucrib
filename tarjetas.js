@@ -44,7 +44,7 @@ $('.question-block .responses button:not(.btn-reset)').click(function() {
 });
 
 //Reset
-$('.question-block button.btn-reset').click(function() {
+$('button.btn-reset').click(function() {
   $('.question-block').removeClass('active').removeClass('answered');
   $('.card-item__side.-front').removeClass('active-card');
   document.querySelector('.card-section').classList.remove('active-section');

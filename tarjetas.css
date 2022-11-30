@@ -36,8 +36,6 @@ h5 {
   display: none;
 }
 
-
-
 .question-block:not(.active, .answered) {
   display: none;
 }
@@ -66,7 +64,31 @@ h5 {
   font-weight: 700;
   margin: 0 0 10px 0;
 }
+.alert-message-icon{
+  max-height: 1.3em;
+  display: inline-block;
+  position: relative;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+.tip-small{
+  font-size: 20px;
+  font-weight: normal;
+}
 
+.center {
+  border: 5px solid;
+  display: flex;
+  justify-content: center;
+}
+.center-botton{
+  text-align: center;
+}
+.responses{
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
 /* Card CSS */
 
 .card-section {
@@ -77,10 +99,16 @@ h5 {
   margin-bottom: 100px;
   margin: 20px 0;
   padding: 15px;
-
+  display:none;
+}
+.card-section-title{
+  text-align: center;
+  flex-basis: 100%;
+  margin: 25px 0;
 }
 .active-section{
   border: 1px solid #ddd;
+  display: flex;
 }
 .wrapper {
   min-height: 100vh;
